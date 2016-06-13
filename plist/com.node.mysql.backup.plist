@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+            <string>com.node.mysql.backup.plist</string>
+
+        <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/bin/node</string>
+            <string>/Users/calvingferrando/Desktop/node-mysql-auto-backup/app.js</string>
+        </array>
+
+        <key>RunAtLoad</key>
+        <true/>
+
+        <key>KeepAlive</key>
+        <true/>
+    </dict>
+</plist>

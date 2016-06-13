@@ -1,0 +1,17 @@
+{
+  "name": "node-mysql-auto-backup",
+  "version": "1.0.0",
+  "description": "Backup mysql daily",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "mysqldump": "^1.1.1",
+    "node-notifier": "^4.6.0",
+    "node-schedule": "^1.1.0"
+  }
+}
